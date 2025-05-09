@@ -74,8 +74,8 @@ public class StackTugasMahasiswa17 {
         return top + 1;
     }
     
-    public String konversi DesimalKeBiner (int nilai) { 
-        StackKonversi stack = new StackKonversi(); 
+    public String konversiDesimalKeBiner (int nilai) { 
+        StackKonversi17 stack = new StackKonversi17(); 
         while (nilai > 0) { 
             int sisa = nilai % 2; 
             stack.push(sisa); 
